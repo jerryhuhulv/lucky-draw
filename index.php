@@ -13,4 +13,9 @@ for ($x=0; $x<=1000; $x++) {
   echo " <p hidden>this is a echo number：$x <br></p)";
 } 
 ?>
+<?php 
+for ($x=0; $x<=20000; $x++) {
+  echo "";
+} 
+?> 
 </html>
