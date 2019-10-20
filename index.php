@@ -1,8 +1,3 @@
-<?php 
-for ($x=0; $x<=1000; $x++) {
-  echo "this is a echo number：$x <br>";
-} 
-?>
 <html>
 <div id="box">
     <table width="100%" height="100%">
@@ -13,4 +8,9 @@ for ($x=0; $x<=1000; $x++) {
         </tr>
     </table>
 </div>
+<?php 
+for ($x=0; $x<=1000; $x++) {
+  echo " <p hidden>this is a echo number：$x <br></p)";
+} 
+?>
 </html>
