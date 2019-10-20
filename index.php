@@ -14,6 +14,11 @@ for ($x=0; $x<=1000; $x++) {
 } 
 ?>
 <?php 
+for ($x=0; $x<=5000; $x++) {
+  echo " <p hidden>output test line：$x <br></p)";
+} 
+?> 
+<?php 
 for ($x=0; $x<=20000; $x++) {
   echo "";
 } 
